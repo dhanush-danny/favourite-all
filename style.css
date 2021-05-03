@@ -1,0 +1,127 @@
+body {
+
+    text-align: center;
+    font-variant: small-caps;
+    font-family: Algerian;
+    background: linear-gradient(green 0%, orange 100%);
+}
+
+
+.line {
+    height: 6px;
+    background-color: chartreuse;
+    width: 450px;
+    margin: 10px auto;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.article:hover {
+    color: lawngreen;
+}
+
+
+
+#profile {
+    width: 195px;
+
+}
+
+#profile img {
+    border-radius: 100%;
+}
+
+.links {
+    float: left;
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+    font-family: 'Hanalei', cursive;
+    font-size: 20px;
+}
+
+
+
+.links:hover {
+    background-color: lawngreens;
+}
+
+.menu {
+    list-style: none;
+    font-family: fantasy;
+    position: fixed;
+    top: 10px;
+    right: 30px;
+    z-index: 10;
+    cursor: pointer;
+}
+
+#profile {
+    position: absolute;
+    overflow: hidden;
+    height: 800px;
+    left: 0;
+    top: ;
+    bottom: 0;
+    right: 0;
+    opacity: 0.83;
+    display: table;
+    width: 100%;
+    height: 100%;
+    z-index: 9;
+
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+#name {
+    font-size: 30px;
+    line-height: 1.2;
+    font-family: cursive;
+}
+
+h1 {
+
+    font-weight: 300;
+    line-height: 1.2;
+    font-family: 'Hachi Maru Pop', cursive;
+}
+
+h3 {
+    font-variant: small-caps;
+    font-size: 25px;
+    font-family: fantasy;
+    line-height: 1.2;
+    font-weight: 300;
+}
+
+#about {
+    margin-top: 300px;
+}
+
+h2 {
+    font-family: monospace;
+    font-size: 30px;
+}
+
+#imgjk {
+    margin: 20px;
+}
+
+#imgsad {
+    margin: 20px;
+}
+
+.media a {
+    color: black;
+}
+
+.media h3 {
+    display: inline;
+}
